@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="primeiro-javafx (1)" />
+        <module name="prj-sistema-vendas-javafx-parte1" />
+        <module name="vendas-javafx" />
+        <module name="projeto-calculo-imc-novo" />
+        <module name="Excecoes1" />
+        <module name="Excecoes2" />
+        <module name="prj-sistema-lavacao-javafx-parte1" />
+        <module name="prj-calculadora-javafx_1.0.0" />
+        <module name="projeto-javafx-calculo-salario-liquido" />
+        <module name="prj-exemplo-javafx" />
+        <module name="prj-exemplo-javafx (1)" />
+        <module name="prj-sistema-lavacao-parte1" />
+        <module name="vendas-javafx (1)" />
+        <module name="prj-exemplo-javafx (2)" />
+        <module name="vendas-javafx (2)" />
+        <module name="vendas-javafx (3)" />
+        <module name="vendas-javafx (4)" />
+        <module name="vendas-javafx (5)" />
+        <module name="vendas-javafx (6)" />
+        <module name="vendas-javafx (7)" />
+        <module name="primeiro-javafx" />
+        <module name="Excecoes2 (1)" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

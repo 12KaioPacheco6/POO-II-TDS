@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/Exceptions/Excecoes1/pom.xml" />
+        <option value="$PROJECT_DIR$/Exceptions/Excecoes2/pom.xml" />
+        <option value="$PROJECT_DIR$/Exceptions/Excecoes3/pom.xml" />
+        <option value="$PROJECT_DIR$/JavaFX-2025-1/prj-exemplo-javafx/pom.xml" />
+        <option value="$PROJECT_DIR$/JavaFX-2025-1/prj-exemplo-javafx-02/pom.xml" />
+        <option value="$PROJECT_DIR$/JavaFX-2025-1/prj-exemplo-javafx-03-spinner/pom.xml" />
+        <option value="$PROJECT_DIR$/SistemaVendas-Maven/prj-sistema-lavacao-parte1/pom.xml" />
+        <option value="$PROJECT_DIR$/SistemaVendas-Maven/prj-sistema-vendas-javafx-parte1/pom.xml" />
+        <option value="$PROJECT_DIR$/SistemaVendas-Maven/prj-sistema-vendas-javafx-parte2/pom.xml" />
+        <option value="$PROJECT_DIR$/SistemaVendas-Maven/prj-sistema-vendas-javafx-parte3/pom.xml" />
+        <option value="$PROJECT_DIR$/SistemaVendas-Maven/prj-sistema-vendas-javafx-parte4/pom.xml" />
+        <option value="$PROJECT_DIR$/SistemaVendas-Maven/prj-sistema-vendas-javafx-parte5/pom.xml" />
+        <option value="$PROJECT_DIR$/SistemaVendas-Maven/prj-sistema-vendas-javafx-parte6/pom.xml" />
+        <option value="$PROJECT_DIR$/SistemaVendas-Maven/prj-sistema-vendas-javafx-parte7/pom.xml" />
+        <option value="$PROJECT_DIR$/SistemaVendas-Maven/prj-sistema-lavacao-javafx-parte1/pom.xml" />
+        <option value="$PROJECT_DIR$/SistemaVendas-Maven/prj-sistema-vendas-javafx-parte8-api-client/pom.xml" />
+        <option value="$PROJECT_DIR$/SistemaVendas-Maven/prj-sistema-vendas-javafx-parte2-select-simplificado/pom.xml" />
+        <option value="$PROJECT_DIR$/JavaFX_Maven_Projects/olamundo-javafx-mvn-main/maven-prj-nome-sobrenome/pom.xml" />
+        <option value="$PROJECT_DIR$/JavaFX_Maven_Projects/olamundo-javafx-mvn-main/olamundo-javafx-mvn-main/pom.xml" />
+        <option value="$PROJECT_DIR$/JavaFX_Maven_Projects/projeto-calculo-imc-novo/pom.xml" />
+        <option value="$PROJECT_DIR$/JavaFX_Maven_Projects/prj-calculadora-javafx-mvn-main/prj-calculadora-javafx_1.0.0/pom.xml" />
+        <option value="$PROJECT_DIR$/JavaFX_Maven_Projects/projeto-javafx-calculo-salario-liquido/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_23" default="true" project-jdk-name="23" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

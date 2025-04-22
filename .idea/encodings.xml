@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/Exceptions/Excecoes1/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Exceptions/Excecoes1/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Exceptions/Excecoes2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Exceptions/Excecoes2/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Exceptions/Excecoes3/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Exceptions/Excecoes3/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JavaFX-2025-1/prj-exemplo-javafx-02/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JavaFX-2025-1/prj-exemplo-javafx-02/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JavaFX-2025-1/prj-exemplo-javafx-03-spinner/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JavaFX-2025-1/prj-exemplo-javafx-03-spinner/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JavaFX-2025-1/prj-exemplo-javafx/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JavaFX-2025-1/prj-exemplo-javafx/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JavaFX_Maven_Projects/olamundo-javafx-mvn-main/maven-prj-nome-sobrenome/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JavaFX_Maven_Projects/olamundo-javafx-mvn-main/maven-prj-nome-sobrenome/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JavaFX_Maven_Projects/olamundo-javafx-mvn-main/olamundo-javafx-mvn-main/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JavaFX_Maven_Projects/olamundo-javafx-mvn-main/olamundo-javafx-mvn-main/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JavaFX_Maven_Projects/prj-calculadora-javafx-mvn-main/prj-calculadora-javafx_1.0.0/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JavaFX_Maven_Projects/prj-calculadora-javafx-mvn-main/prj-calculadora-javafx_1.0.0/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JavaFX_Maven_Projects/projeto-calculo-imc-novo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JavaFX_Maven_Projects/projeto-calculo-imc-novo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JavaFX_Maven_Projects/projeto-javafx-calculo-salario-liquido/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JavaFX_Maven_Projects/projeto-javafx-calculo-salario-liquido/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SistemaVendas-Maven/prj-sistema-lavacao-javafx-parte1/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SistemaVendas-Maven/prj-sistema-lavacao-javafx-parte1/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SistemaVendas-Maven/prj-sistema-lavacao-parte1/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SistemaVendas-Maven/prj-sistema-lavacao-parte1/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SistemaVendas-Maven/prj-sistema-vendas-javafx-parte1/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SistemaVendas-Maven/prj-sistema-vendas-javafx-parte1/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SistemaVendas-Maven/prj-sistema-vendas-javafx-parte2-select-simplificado/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SistemaVendas-Maven/prj-sistema-vendas-javafx-parte2-select-simplificado/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SistemaVendas-Maven/prj-sistema-vendas-javafx-parte2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SistemaVendas-Maven/prj-sistema-vendas-javafx-parte2/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SistemaVendas-Maven/prj-sistema-vendas-javafx-parte3/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SistemaVendas-Maven/prj-sistema-vendas-javafx-parte3/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SistemaVendas-Maven/prj-sistema-vendas-javafx-parte4/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SistemaVendas-Maven/prj-sistema-vendas-javafx-parte4/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SistemaVendas-Maven/prj-sistema-vendas-javafx-parte5/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SistemaVendas-Maven/prj-sistema-vendas-javafx-parte5/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SistemaVendas-Maven/prj-sistema-vendas-javafx-parte6/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SistemaVendas-Maven/prj-sistema-vendas-javafx-parte6/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SistemaVendas-Maven/prj-sistema-vendas-javafx-parte7/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SistemaVendas-Maven/prj-sistema-vendas-javafx-parte7/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SistemaVendas-Maven/prj-sistema-vendas-javafx-parte8-api-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SistemaVendas-Maven/prj-sistema-vendas-javafx-parte8-api-client/src/main/resources" charset="UTF-8" />
+  </component>
+</project>
