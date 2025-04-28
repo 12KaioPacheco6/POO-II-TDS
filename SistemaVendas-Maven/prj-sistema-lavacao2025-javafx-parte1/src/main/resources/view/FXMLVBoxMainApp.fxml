@@ -9,21 +9,22 @@
 
 <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.ifsc.fln.controller.FXMLVBoxMainAppController">
    <children>
-      <MenuBar>
+      <MenuBar prefHeight="8.0" prefWidth="588.0">
         <menus>
           <Menu mnemonicParsing="false" text="Cadastros">
             <items>
-              <MenuItem fx:id="menuItemCadastroCategoria" mnemonicParsing="false" onAction="#handleMenuItemCadastroCategoria" text="Categoria" />
-                  <MenuItem fx:id="menuItemCadastroProduto" mnemonicParsing="false" onAction="#handleMenuItemCadastroProduto" text="Produto" />
+              <MenuItem fx:id="menuItemCadastroCategoria" mnemonicParsing="false" onAction="#handleMenuItemCadastroCategoria" text="Cor" />
+                  <MenuItem fx:id="menuItemCadastroProduto" mnemonicParsing="false" onAction="#handleMenuItemCadastroProduto" text="Marcar" />
+                  <MenuItem fx:id="menuItemCadastroProduto1" mnemonicParsing="false" onAction="#handleMenuItemCadastroProduto" text="Veiculo" />
                   <SeparatorMenuItem mnemonicParsing="false" />
                   <MenuItem fx:id="menuItemCadastroCliente" mnemonicParsing="false" onAction="#handleMenuItemCadastroCliente" text="Cliente" />
                   <SeparatorMenuItem mnemonicParsing="false" />
-                  <MenuItem fx:id="menuItemCadastroFornecedor" mnemonicParsing="false" onAction="#handleMenuItemCadastroFornecedor" text="Serviços" />
+                  <MenuItem fx:id="menuItemCadastroFornecedor" mnemonicParsing="false" onAction="#handleMenuItemCadastroFornecedor" text="Serviço" />
             </items>
           </Menu>
           <Menu mnemonicParsing="false" text="Processos">
             <items>
-              <MenuItem fx:id="menuItemProcessoEstoque" mnemonicParsing="false" onAction="#handleMenuItemProcessoEstoque" text="Ordem de Serviço" />
+              <MenuItem fx:id="menuItemProcessoEstoque" mnemonicParsing="false" onAction="#handleMenuItemProcessoEstoque" text="Estoque" />
                   <MenuItem fx:id="menuItemProcessoVenda" mnemonicParsing="false" onAction="#handleMenuItemProcessoVenda" text="Venda" />
             </items>
           </Menu>
