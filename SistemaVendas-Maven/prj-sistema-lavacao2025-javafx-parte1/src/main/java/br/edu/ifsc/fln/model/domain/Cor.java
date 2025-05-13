@@ -8,11 +8,11 @@ public class Cor {
     private int id;
     private String cor;
 
-    public Categoria(String descricao) {
+    public Cor(String descricao) {
         this.descricao = cor;
     }
 
-    public Categoria() {
+    public Cor() {
     }
 
     public int getId() {

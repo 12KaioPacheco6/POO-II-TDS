@@ -4,19 +4,15 @@
  */
 package br.edu.ifsc.fln.model.domain;
 
-/**
- *
- * @author mpisc
- */
-public class Categoria {
+public class Marca {
     private int id;
-    private String descricao;
+    private String nome;
 
-    public Categoria(String descricao) {
-        this.descricao = descricao;
+    public Marca(String nome) {
+        this.nome = nome;
     }
 
-    public Categoria() {
+    public Marca() {
     }
 
     public int getId() {
@@ -27,17 +23,17 @@ public class Categoria {
         this.id = id;
     }
 
-    public String getDescricao()a {
-        return descricao;
+    public String getNome() {
+        return nome;
     }
 
-    public void setDescricao(String descricao) {
-        this.descricao = descricao;
+    public void setNome(String nome) {
+        this.nome = nome;
     }
 
     @Override
     public String toString() {
-        return descricao;
+        return nome;
     }
     
 }

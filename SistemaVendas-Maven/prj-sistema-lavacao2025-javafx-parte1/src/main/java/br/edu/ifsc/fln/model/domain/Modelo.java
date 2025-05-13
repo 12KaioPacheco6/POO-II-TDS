@@ -8,15 +8,15 @@ package br.edu.ifsc.fln.model.domain;
  *
  * @author mpisc
  */
-public class Categoria {
+public class Modelo {
     private int id;
     private String descricao;
 
-    public Categoria(String descricao) {
+    public Modelo(String descricao) {
         this.descricao = descricao;
     }
 
-    public Categoria() {
+    public Modelo() {
     }
 
     public int getId() {
@@ -27,7 +27,7 @@ public class Categoria {
         this.id = id;
     }
 
-    public String getDescricao()a {
+    public String getDescricao() {
         return descricao;
     }
 
