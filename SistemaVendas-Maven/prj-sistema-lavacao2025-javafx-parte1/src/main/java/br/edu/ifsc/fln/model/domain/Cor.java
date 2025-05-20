@@ -6,10 +6,10 @@ package br.edu.ifsc.fln.model.domain;
 
 public class Cor {
     private int id;
-    private String cor;
+    private String nome;
 
-    public Cor(String descricao) {
-        this.descricao = cor;
+    public Cor(String cor) {
+        this.nome = nome;
     }
 
     public Cor() {
@@ -22,18 +22,17 @@ public class Cor {
     public void setId(int id) {
         this.id = id;
     }
-
-    public String getDescricao() {
-        return cor;
+    public String getNome() {
+        return nome;
     }
 
-    public void setDescricao(String cor) {
-        this.cor = cor;
+    public void setNome(String nome) {
+        this.nome = nome;
     }
 
     @Override
     public String toString() {
-        return cor;
+        return nome;
     }
     
 }

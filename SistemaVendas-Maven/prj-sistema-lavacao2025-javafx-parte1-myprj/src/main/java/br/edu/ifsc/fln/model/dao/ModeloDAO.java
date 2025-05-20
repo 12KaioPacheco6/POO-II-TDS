@@ -1,6 +1,6 @@
 package br.edu.ifsc.fln.model.dao;
 
-import br.edu.ifsc.fln.model.domain.Marca;
+import br.edu.ifsc.fln.model.domain.Modelo;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -10,9 +10,9 @@ import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-public class MarcaDAO {
+public class ModeloDAO {
 
-    private static Connection connection;
+    private Connection connection;
     
     public Connection getConnection() {
         return connection;
@@ -22,82 +22,82 @@ public class MarcaDAO {
         this.connection = connection;
     }
 
-    public boolean inserir(Marca marca) {
-        String sql = "INSERT INTO marca(descricao) VALUES(?)";
+    public boolean inserir(Modelo modelo) {
+        String sql = "INSERT INTO modelo(descricao) VALUES(?)";
         try {
             PreparedStatement stmt = connection.prepareStatement(sql);
-            stmt.setString(1, marca.getNome());
+            stmt.setString(1, modelo.getDescricao());
             stmt.execute();
             return true;
         } catch (SQLException ex) {
-            Logger.getLogger(MarcaDAO.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(ModeloDAO.class.getName()).log(Level.SEVERE, null, ex);
             return false;
         }
     }
 
-    public boolean alterar(Marca marca) {
-        String sql = "UPDATE marca SET descricao=? WHERE id=?";
+    public boolean alterar(Modelo modelo) {
+        String sql = "UPDATE modelo SET descricao=? WHERE id=?";
         try {
             PreparedStatement stmt = connection.prepareStatement(sql);
-            stmt.setString(1, marca.getNome());
-            stmt.setInt(2, marca.getId());
+            stmt.setString(1, modelo.getDescricao());
+            stmt.setInt(2, modelo.getId());
             stmt.execute();
             return true;
         } catch (SQLException ex) {
-            Logger.getLogger(MarcaDAO.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(ModeloDAO.class.getName()).log(Level.SEVERE, null, ex);
             return false;
         }
     }
 
-    public boolean remover(Marca marca) {
-        String sql = "DELETE FROM marca WHERE id=?";
+    public boolean remover(Modelo modelo) {
+        String sql = "DELETE FROM modelo WHERE id=?";
         try {
             PreparedStatement stmt = connection.prepareStatement(sql);
-            stmt.setInt(1, marca.getId());
+            stmt.setInt(1, modelo.getId());
             stmt.execute();
             return true;
         } catch (SQLException ex) {
-            Logger.getLogger(MarcaDAO.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(ModeloDAO.class.getName()).log(Level.SEVERE, null, ex);
             return false;
         }
     }
 
-    public static List<Marca> listar() {
-        String sql = "SELECT * FROM marca";
-        List<Marca> retorno = new ArrayList<>();
+    public List<Modelo> listar() {
+        String sql = "SELECT * FROM modelo";
+        List<Modelo> retorno = new ArrayList<>();
         try {
             PreparedStatement stmt = connection.prepareStatement(sql);
             ResultSet resultado = stmt.executeQuery();
             while (resultado.next()) {
-                Marca marca = new Marca();
-                marca.setId(resultado.getInt("id"));
-                marca.setNome(resultado.getString("nome"));
-                retorno.add(marca);
+                Modelo modelo = new Modelo();
+                modelo.setId(resultado.getInt("id"));
+                modelo.setDescricao(resultado.getString("descricao"));
+                retorno.add(modelo);
             }
         } catch (SQLException ex) {
-            Logger.getLogger(MarcaDAO.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(ModeloDAO.class.getName()).log(Level.SEVERE, null, ex);
         }
         return retorno;
     }
 
-    public Marca buscar(Marca marca) {
-        Marca retorno = buscar(marca.getId());
+    public Modelo buscar(Modelo modelo) {
+        Modelo retorno = buscar(modelo.getId());
         return retorno;
     }
     
-    public Marca buscar(int id) {
-        String sql = "SELECT * FROM marca WHERE id=?";
-        Marca retorno = new Marca();
+    public Modelo buscar(int id) {
+        String sql = "SELECT * FROM modelo WHERE id=?";
+        Modelo retorno = new Modelo();
         try {
             PreparedStatement stmt = connection.prepareStatement(sql);
             stmt.setInt(1, id);
             ResultSet resultado = stmt.executeQuery();
             if (resultado.next()) {
                 retorno.setId(resultado.getInt("id"));
-                retorno.setNome(resultado.getString("descricao"));
+                retorno.setDescricao(resultado.getString("descricao"));
             }
         } catch (SQLException ex) {
-            Logger.getLogger(MarcaDAO.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(ModeloDAO.class.getName()).log(Level.SEVERE, null, ex);
         }
         return retorno;        
     }
