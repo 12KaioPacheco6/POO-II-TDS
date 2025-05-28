@@ -194,7 +194,7 @@ public class FXMLAnchorPaneProcessoEstoqueController implements Initializable {
         
         //criando um estágio de diálogo  (Stage Dialog)
         Stage dialogStage = new Stage();
-        dialogStage.setTitle("Atualização do Estoque");
+        dialogStage.setTitle("Atualização do Motor");
         Scene scene = new Scene(page);
         dialogStage.setScene(scene);
         
